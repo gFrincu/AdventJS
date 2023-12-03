@@ -1,9 +1,9 @@
 function findFirstRepeated(gifts: number[]): number {
-	let numeros: number[] = [];
+	let gift: number[] = [];
 
 	for (let i = 0; i < gifts.length; i++) {
-		if (!numeros.includes(gifts[i])) {
-			numeros.push(gifts[i]);
+		if (!gift.includes(gifts[i])) {
+			gift.push(gifts[i]);
 		} else {
 			return gifts[i];
 		}
@@ -20,3 +20,4 @@ console.log(firstRepeatedId2)
 const giftIds3 = [5, 1, 5, 1]
 const firstRepeatedId3 = findFirstRepeated(giftIds3)
 console.log(firstRepeatedId3)
+//El programa pasa por el array de números y los va agregando todos a un array nuevo. Antes de agregar, comprueba que el número no esté ya en el array, y si lo está, para y devuelve el número, porque será el primero repetido.
