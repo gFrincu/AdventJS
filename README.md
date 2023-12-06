@@ -63,6 +63,6 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 
 ## Lista de años realizados
 
-- [2023](2023/2023.md)
-- [2022](2022/2022.md)
-- [2021](2021/2021.md)
+- [2021](./2021.md)
+- [2022](./2022.md)
+- [2023](./2023.md)
