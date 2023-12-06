@@ -23,16 +23,16 @@ function maxDistance(movements: string): number {
 }
 
 const movements = '>>*<'
-const result = maxDistance(movements)
-console.log(result) // -> 2
+const distance = maxDistance(movements)
+console.log(distance) // -> 2
 
 const movements2 = '<<<>'
-const result2 = maxDistance(movements2)
-console.log(result2) // -> 2
+const distance2 = maxDistance(movements2)
+console.log(distance2) // -> 2
 
 const movements3 = '>***>'
-const result3 = maxDistance(movements3)
-console.log(result3) // -> 5
+const distance3 = maxDistance(movements3)
+console.log(distance3) // -> 5
 
 // En este programa lo que he hecho es que para < y > retroceda o avance según sea el caso
 // En cuanto a los asteriscos, como depende de la distancia y lo que beneficie, pues he decidido contar cuantos hay con un contador de asteriscos
