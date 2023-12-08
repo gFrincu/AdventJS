@@ -1,4 +1,4 @@
-function manufacture(gifts: string[], materials: string): string[] {
+function manufactureV2(gifts: string[], materials: string): string[] {
 	let manufacturableGifts: string[] = [];
 	for (let gift of gifts) {
 		let canManufacture = true;
@@ -17,12 +17,12 @@ function manufacture(gifts: string[], materials: string): string[] {
 }
 const gifts1 = ['tren', 'oso', 'pelota'];
 const materials1 = 'tronesa';
-console.log(manufacture(gifts1, materials1)); // ["tren", "oso"]
+console.log(manufactureV2(gifts1, materials1)); // ["tren", "oso"]
 
 const gifts2 = ['juego', 'puzzle'];
 const materials2 = 'jlepuz';
-console.log(manufacture(gifts2, materials2)); // ["puzzle"]
+console.log(manufactureV2(gifts2, materials2)); // ["puzzle"]
 
 const gifts3 = ['libro', 'ps5'];
 const materials3 = 'psli';
-console.log(manufacture(gifts3, materials3)); // []
+console.log(manufactureV2(gifts3, materials3)); // []
