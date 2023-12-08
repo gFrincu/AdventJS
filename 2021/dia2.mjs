@@ -1,3 +1,7 @@
+// Divido la frase de la carta por espacios
+// Luego paso por toda la carta dividida en regalos
+// Si la palabra empieza por _  le digo que continúe y que no haga nada
+// Si encuentro un regalo en la carta, le pongo un 1 si es la primera vez que lo veo, o le sumo 1 si ya ha salido antes.
 export default function listGifts(letter) {
     let letterArray = letter.trim().split(/\s+/);
     let gifts = {};

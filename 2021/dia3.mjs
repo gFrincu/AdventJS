@@ -1,3 +1,9 @@
+// Primero intento buscar si hay paréntesis desemparejados
+// Para que un paréntesis esté bien primero tiene que abrirse y luego tiene que cerrarse.
+//  Si encuentro un paréntesis que se cierra y luego uno que se abre, no vale.
+// Hago la cuenta y si no está bien, devuelvo false.
+// Eso es pasando por toda la cadena, con que está dentro del for
+// Luego hay otras condiciones como que incluyan llaves o corchetes, o que los paréntesis de apertura y cierre no coincidan, eso lo miro debajo con un if que si encuentra una de ellas, devuelve false.
 export default function isValid(letter) {
 	let openParenthesis = 0, closeParenthesis = 0;
 	const stack = [];

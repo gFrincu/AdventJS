@@ -1,3 +1,5 @@
+//Solo paso por el array de objetos completo y le digo que me devuelva en un array de objetos nuevo las que tengan la palabra rojo, y contengan la letra n y la letra a.
+// Al buscar convierto lo que busco en el array a minúsculas para poder encontrar todas las posibilidades
 export default function contarOvejas(ovejas) {
     let ovejasFiltradas = [];
 
