@@ -44,7 +44,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 7. Las cajas en 3D](2023/dia7.md)   | Fácil | [Solución del día 7](2023/dia7.ts)  ||
 | [Día 8. Ordenando el almacén](2023/dia8.md)  | Medio | [Solución del día 8 con whiles y escritura más densa](2023/dia8.ts)  |[Solución del día 8 con foreach](2023/dia8v2.ts)|
 | [Día 9. Alterna las luces](2023/dia9.md)  | Fácil | [Solución del día 9](2023/dia9.ts)  ||
-| Día 10 | -- | -- |--|
+| [Día 10. Crea tu propio árbol de navidad](2023/dia10.md)  | Fácil | [Solución del día 10](2023/dia10.ts)  ||
 | Día 11 | -- | -- |--|
 | Día 12 | -- | -- |--|
 | Día 13 | -- | -- |--|
