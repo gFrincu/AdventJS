@@ -1,4 +1,8 @@
-function maxDistance(movements: string): number {
+// En este programa lo que he hecho es que para < y > retroceda o avance según sea el caso
+// En cuanto a los asteriscos, como depende de la distancia y lo que beneficie, pues he decidido contar cuantos hay con un contador de asteriscos
+// Entonces como lo que necesitamos es el valor absoluto de la distancia, le he dicho que me diga cuando sería el valor absoluto sumando los asteriscos, y restando los asteriscos
+//  El que sea más grande, es con el que me quedo
+export function maxDistance(movements: string): number {
 	let i = 0, counter = 0, asterisks = 0;
 	while (i < movements.length) {
 		if (movements[i] == '>') {
@@ -34,7 +38,3 @@ const movements3 = '>***>'
 const distance3 = maxDistance(movements3)
 console.log(distance3) // -> 5
 
-// En este programa lo que he hecho es que para < y > retroceda o avance según sea el caso
-// En cuanto a los asteriscos, como depende de la distancia y lo que beneficie, pues he decidido contar cuantos hay con un contador de asteriscos
-// Entonces como lo que necesitamos es el valor absoluto de la distancia, le he dicho que me diga cuando sería el valor absoluto sumando los asteriscos, y restando los asteriscos
-//  El que sea más grande, es con el que me quedo

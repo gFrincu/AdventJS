@@ -2,7 +2,7 @@
 // Yo soy ciega y no tengo una buena visión espacial, si le preguntas a alguien vidente sobre los ejemplos te explicará que eso es un cubo y que tiene sentido, yo sinceramente, no lo entiendo así que he intentado replicar el patrón
 //  Lo he dividido en la parte de arriba, la del medio, y la de abajo forzadamente porque siempre serán de una manera
 //  Y las líneas de arriba y las de abajo realmente tienen el mismo patrón, lo único que las de arriba tienen espacios en blanco y las otras no.
-function drawGift(size: number, symbol: string): string {
+export function drawGift(size: number, symbol: string): string {
 	let i;
 	let gift = '';
 	let blankSpace = ' ', hash = '#';

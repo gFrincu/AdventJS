@@ -1,4 +1,4 @@
-function decode(message: string): string {
+export function decode(message: string): string {
 	// Define una expresión regular para encontrar texto entre paréntesis.
 	// Captura solo el texto que no contiene otros paréntesis.
 	const regex = /\(([^()]+)\)/g;

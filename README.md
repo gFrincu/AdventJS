@@ -12,6 +12,12 @@ La idea es hacerlos en typescript. Así que para ejecutarlos hay que clonar el r
 git clone https://github.com/gFrincu/AdventJS
 ```
 
+y hacer el npm install
+
+```shell
+npm install
+````
+
 Después en una consola hay que escribir `tsc` para hacer el transpilado. Se nos generará una carpeta js con el código en javascript de todos los años.
 
 Y para ejecutar cualquiera de los programas hay que, estando en la raíz del proyecto,  escribir en la consola `node js/año/diax.js` substituyendo la x por el número de día que sea.
@@ -25,6 +31,16 @@ En la versión de 2021 no se podía hacer con typescript así que para ejecutarl
 
 ```shell
 node 2021/dia1.mjs
+```
+
+Mis commits probablemente serán un poco caóticos al menos en 2023, espero que con el pasar de los años (si lo sigo haciendo) tenga algo más de sentido. Pido disculpas por adelantado.
+
+He visto en el repo de [Achaology](https://github.com/achalogy/advent-js-2023/) Que el ha pasado los tests que Midudev pone en los retos con jest y me ha parecido una idea chula. Lo único malo de esto es que Midudev tiene algunos tests secretos que nosotros no conocemos, pero bueno, al menos los que sí también ayudan como guía. Así que intentaré introducirlos también. El advent de 2021 no te muestra los tests, así que de ese no pondré ninguno.
+
+Para ejecutar un test hay que poner en consola
+
+```shell
+npx jest año/diaX.test.ts
 ```
 
 Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mejorar mi lógica de programación y porque me parece una iniciativa chula. También porque me gusta la navidad jajaja. Si tenéis alguna duda o comentario podéis escribirme en [Twitter](https://twitter.com/georgiana_fh) (para mí siempre será Twitter) o [mastodon](https://mastodon.cat/@georgiana_fh)

@@ -1,15 +1,8 @@
-// Esta versión hace lo mismo que la anterior pero con un for of
 export function findFirstRepeated(gifts: number[]): number {
-	let repeated: number[] = []
-		for (let gift of gifts){
-		if (!repeated.includes(gift)) {
-			repeated.push(gift);
-		} else {
-			return gift;
-		}
-	}
-
-	return -1;
+	// La idea de esto es que tu filtras por todos los iguales que tenga el array, la cuestión es que lo que te hace determinar que existen es ver que tengan un índice diferente a i. Si lo tienen has encontrado a tu repetido.
+    const repeated = gifts.filter((gift, i) => gifts.indexOf(gift) !== i);
+	console.log(repeated)
+    return repeated.length > 0 ? repeated[0] : -1;
 }
 
 const giftIds = [2, 1, 3, 5, 3, 2]

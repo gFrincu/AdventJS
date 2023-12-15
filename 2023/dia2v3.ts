@@ -1,19 +1,10 @@
+// Filter itera por cada elemento del array
+// Lo dividimos en letras
+// Y buscamos si las letras están en los regalos
 export function manufacture(gifts: string[], materials: string): string[] {
-	let manufacturableGifts: string[] = [];
-	for (let gift of gifts) {
-		let canManufacture = true;
-		for (let giftMaterial of gift) {
-			if (!materials.includes(giftMaterial)) {
-				canManufacture = false;
-				break;
-			}
-		}
-		if (canManufacture) {
-			manufacturableGifts.push(gift);
-		}
-	}
-
-	return manufacturableGifts;
+	return gifts.filter(gift => {
+		return gift.split('').every(letter => materials.includes(letter));
+	});
 }
 const gifts1 = ['tren', 'oso', 'pelota'];
 const materials1 = 'tronesa';
@@ -26,3 +17,5 @@ console.log(manufacture(gifts2, materials2)); // ["puzzle"]
 const gifts3 = ['libro', 'ps5'];
 const materials3 = 'psli';
 console.log(manufacture(gifts3, materials3)); // []
+
+
