@@ -1,4 +1,4 @@
-function organizeGifts(gifts: string): string {
+export function organizeGifts(gifts: string): string {
 	let i = 0
 	let organizedGifts = ''
 	let numbers = gifts.split(/[a-z]/g).filter(Boolean);

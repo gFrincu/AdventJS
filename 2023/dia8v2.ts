@@ -1,25 +1,21 @@
-function organizeGiftsV2(gifts: string): string {
+export function organizeGifts(gifts: string): string {
 	let organizedGifts = '';
-	let numbers = gifts.match(/\d+/g) ?? [];
-	let letters = gifts.match(/[a-zA-Z]+/g) ?? [];
+	const numbers = gifts.match(/\d+/g) ?? [];
+	const letters = gifts.match(/[a-zA-Z]+/g) ?? [];
 
 	numbers.forEach((number, i) => {
 		const count = Number(number);
 		const letter = letters[i];
-		const boxes = Math.floor(count / 10);
-		const restOfGifts = count % 10;
-		organizedGifts += `{${letter}}`.repeat(boxes);
-		if (restOfGifts > 0) {
-			organizedGifts += `(${letter.repeat(restOfGifts)})`;
-		}
+		const pallets = Math.floor(count / 50);
+		const boxes = Math.floor((count % 50) / 10);
+		const individualGifts = count % 10;
 
-		let pallet = `{${letter}}`.repeat(5)
-		while (organizedGifts.includes(pallet)) {
-			organizedGifts = organizedGifts.replace(pallet, `[${letter}]`)
+		organizedGifts += `[${letter}]`.repeat(pallets);
+		organizedGifts += `{${letter}}`.repeat(boxes);
+		if (individualGifts > 0) {
+			organizedGifts += `(${letter.repeat(individualGifts)})`;
 		}
 	});
+
 	return organizedGifts;
 }
-console.log(organizeGiftsV2(`76a11b`))
-console.log(organizeGiftsV2("20a"))
-console.log(organizeGifts("70b120a4c"))

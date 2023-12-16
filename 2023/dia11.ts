@@ -1,7 +1,7 @@
 // Lo que he intentado hacer aquí es comparar letra por letra.
 //  Empiezo en la primera, le pregunto, si intercambio la primera con la segunda y la segunda con la primera es palíndromo? No. Si intercambio la primera con la tercera y la tercera con la primera es palíndromo? No. Y así con todas las de la primera 
 //  Luego paso a la segunda, y así con todas las letras
-function getIndexsForPalindrome(word: string): Array<number> | null {
+export function getIndexsForPalindrome(word: string): Array<number> | null {
 	word = word.replace(/[\W_]/g, "").toLowerCase()
 	let wordArray = word.split('')
 	let wordReversed = word.split('').reverse().join('')

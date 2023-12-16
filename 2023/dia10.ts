@@ -1,4 +1,4 @@
-function createChristmasTree(ornaments: string, height: number): string {
+export function createChristmasTree(ornaments: string, height: number): string {
 	//  Defino los espacios para lo que no es árbol
 	let blankSpace = ' '.repeat(height - 1);
 //  Esto será el tronco
