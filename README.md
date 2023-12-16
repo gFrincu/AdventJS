@@ -63,7 +63,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 10. Crea tu propio árbol de navidad](2023/dia10.md)  | Fácil | [Solución del día 10](2023/dia10.ts)  |
 | [Día 11. Los elfos estudiosos](2023/dia11.md)  | Medio |[Solución del día 11](2023/dia11.ts)  |
 | [Día 12. ¿Es una copia válida?](2023/dia12.md)  | Medio |[Solución del día 12](2023/dia12.ts)  |
-| Día 13 | -- | -- |
+| [Día 13. Calculando el tiempo](2023/dia13.md)  | Fácil |[Solución del día 13](2023/dia13.ts)  |
 | Día 14 | -- | -- |
 | Día 15 | -- | -- |
 | Día 16 | -- | -- |
