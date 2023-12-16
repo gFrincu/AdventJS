@@ -56,13 +56,13 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 3. El elfo travieso](2023/dia3.md)   | Fácil | [Solución del día 3](2023/dia3.ts)  |
 | [Día 4. Dale la vuelta a los paréntesis](2023/dia4.md)   | Medio | [Solución del día 4](2023/dia4.ts)  |
 | [Día 5. El CyberTruck de Santa](2023/dia5.md)   | Medio | [Solución del día 5](2023/dia5.ts)  |
-| [Día 6. Los renos a prueba](2023/dia6.md)   | Fácil | [Solución del día 6](2023/dia6.ts)  |
+| [Día 6. Los renos a prueba](2023/dia6.md)   | Fácil | [Solución del día 6 con whiles e ifs](2023/dia6.ts)  |
 | [Día 7. Las cajas en 3D](2023/dia7.md)   | Fácil | [Solución del día 7](2023/dia7.ts)  |
 | [Día 8. Ordenando el almacén](2023/dia8.md)  | Medio | [Solución del día 8 con whiles y escritura densa](2023/dia8.ts)  |
-| [Día 9. Alterna las luces](2023/dia9.md)  | Fácil | [Solución del día 9](2023/dia9.ts)  |
+| [Día 9. Alterna las luces](2023/dia9.md)  | Fácil | [Solución del día 9 con dos fors](2023/dia9.ts)  |
 | [Día 10. Crea tu propio árbol de navidad](2023/dia10.md)  | Fácil | [Solución del día 10](2023/dia10.ts)  |
-| [Día 11. Los elfos estudiosos](2023/dia11.md)  | Normal |[Solución del día 11](2023/dia11.ts)  |
-| Día 12 | -- | -- |
+| [Día 11. Los elfos estudiosos](2023/dia11.md)  | Medio |[Solución del día 11](2023/dia11.ts)  |
+| [Día 12. ¿Es una copia válida?](2023/dia12.md)  | Medio |[Solución del día 12](2023/dia12.ts)  |
 | Día 13 | -- | -- |
 | Día 14 | -- | -- |
 | Día 15 | -- | -- |
