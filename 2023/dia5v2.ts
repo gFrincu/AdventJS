@@ -22,7 +22,7 @@ export function cyberReindeer(road: string, time: number): string[] {
 		j++;
 	}
 
-	return (time === 0 || road === '' ? [''] : result);
+	return [result, ['']][+(time === 0 || road === '')];
 }
 
 const road = 'S..|...|..'

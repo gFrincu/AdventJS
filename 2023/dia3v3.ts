@@ -1,21 +1,14 @@
 export function findNaughtyStep(original: string, modified: string): string {
-	// Determinar cuál cadena es más larga y cuál es más corta
-	const longer = original.length >= modified.length ? original : modified;
-	const shorter = original.length >= modified.length ? modified : original;
+	// Aberiguamos cual es la cadena más larga
+	const [shorter, longer] = original.length > modified.length ? [modified, original] : [original, modified];
 
-	// Recorrer cada carácter de la cadena más larga
-	for (let i = 0; i < longer.length; i++) {
-		// Comparar el carácter actual de ambas cadenas
-		if (longer[i] !== shorter[i]) {
-			// Si son diferentes, devolver el carácter de la cadena más larga
-			return longer[i];
-		}
-	}
-
-	// Si todos los caracteres son iguales, devolver una cadena vacía
-	return '';
+	// Convertimos cadena en array
+	// Usamos reduce
+	return longer.split('').reduce((acc, curr, index) => {
+		if (acc) return acc;
+		return curr !== shorter[index] ? curr : acc;
+	}, '');
 }
-
 const original = 'abcd'
 const modified = 'abcde'
 console.log(findNaughtyStep(original, modified)) // 'e'

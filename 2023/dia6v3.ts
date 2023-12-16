@@ -4,7 +4,7 @@ export function maxDistance(movements: string): number {
 	for (const move of movements) {
 		// Utilizamos el valor unario, convierte booleanos a números para poder operar
 		// Counter aumenta en uno si es > y decrementará si es <
-	// Astericos 	aumentan también si aparecen
+		// Asteriscos 	aumentan también si aparecen
 		counter += +(move === '>') - +(move === '<');
 		asterisks += +(move === '*');
 	}
