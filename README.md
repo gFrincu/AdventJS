@@ -65,8 +65,8 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 12. ¿Es una copia válida?](2023/dia12.md)  | Medio |[Solución del día 12](2023/dia12.ts)  |
 | [Día 13. Calculando el tiempo](2023/dia13.md)  | Fácil |[Solución del día 13](2023/dia13.ts)  |
 | [Día 14. Evita la alarma](2023/dia14.md)  | Medio |[Solución del día 14](2023/dia14.ts)  |
-| Día 15 | -- | -- |
-| Día 16 | -- | -- |
+| [Día 15. Robot autónomo](2023/dia15.md)  | Medio |[Solución del día 15](2023/dia15.ts)  |
+| [Día 16. Despliegue en viernes](2023/dia16.md)  | Fácil |[Solución del día 16](2023/dia16.ts)  |
 | Día 17 | -- | -- |
 | Día 18 | -- | -- |
 | Día 19 | -- | -- |
