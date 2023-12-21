@@ -1,3 +1,4 @@
+// De nuevo, idea de Jagame. Gracias
 export function drawClock(time: string): string[][] {
 	const NUMBERS: { [key: string]: number } = {
 		'0': 0b111101101101101101111,
@@ -14,25 +15,43 @@ export function drawClock(time: string): string[][] {
 	}
 
 	const SIGNS: string[] = [' ', '*']
-	const timeSplit: string[] = time.split(':')
 	const result: string[][] = [[], [], [], [], [], [], []]
+	const SBITS = 0b0010100
+	const NBITS0 = NUMBERS[time[0]]
+	const NBITS1 = NUMBERS[time[1]]
+	const NBITS3 = NUMBERS[time[3]]
+	const NBITS4 = NUMBERS[time[4]]
+	for (const i of result.keys()) {
+		const mov0 = i * 3;
+		const mov1 = mov0 + 1;
+		const mov2 = mov0 + 2;
 
-	for (const [i, row] of result.entries()) {
-		for (const num of timeSplit[0]) {
-			const numberBits: number = NUMBERS[num];
-			row.push(SIGNS[numberBits >>> (i * 3 + 0) & 1]);
-			row.push(SIGNS[numberBits >>> (i * 3 + 1) & 1]);
-			row.push(SIGNS[numberBits >>> (i * 3 + 2) & 1]);
-			row.push(' ');
-		}
-		row.push(SIGNS[NUMBERS[':'] >>> i & 1]);
-		for (const num of timeSplit[1]) {
-			const numberBits: number = NUMBERS[num];
-			row.push(' ');
-			row.push(SIGNS[numberBits >>> (i * 3 + 0) & 1]);
-			row.push(SIGNS[numberBits >>> (i * 3 + 1) & 1]);
-			row.push(SIGNS[numberBits >>> (i * 3 + 2) & 1]);
-		}
+		// Agregar símbolos para los dos primeros números
+		result[i].push(SIGNS[NUMBERS[time[0]] >>> mov0 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[0]] >>> mov1 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[0]] >>> mov2 & 1]);
+
+		// Agregar espacio separador
+		result[i].push(' ');
+
+		// Agregar símbolos para el siguiente número
+		result[i].push(SIGNS[NUMBERS[time[1]] >>> mov0 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[1]] >>> mov1 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[1]] >>> mov2 & 1]);
+
+		// Agregar espacio separador y los dos puntos
+		result[i].push(' ', SIGNS[NUMBERS[':'] >>> i & 1], ' ');
+
+		// Agregar símbolos para los dos últimos números
+		result[i].push(SIGNS[NUMBERS[time[3]] >>> mov0 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[3]] >>> mov1 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[3]] >>> mov2 & 1]);
+
+		result[i].push(' ');
+
+		result[i].push(SIGNS[NUMBERS[time[4]] >>> mov0 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[4]] >>> mov1 & 1]);
+		result[i].push(SIGNS[NUMBERS[time[4]] >>> mov2 & 1]);
 	}
 
 	return result;
