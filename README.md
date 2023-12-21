@@ -68,7 +68,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 15. Robot autónomo](2023/dia15.md)  | Medio |[Solución del día 15](2023/dia15.ts)  |
 | [Día 16. Despliegue en viernes](2023/dia16.md)  | Fácil |[Solución del día 16](2023/dia16.ts)  |
 | [Día 17. Optimizando el alquiler](2023/dia17.md)  | Fácil |[Solución del día 17](2023/dia17.ts)  |
-| Día 18 | -- | -- |
+| [Día 18. El reloj digital](2023/dia18.md)  | Difícil |[Solución del día 18](2023/dia18.ts)  |
 | Día 19 | -- | -- |
 | Día 20 | -- | -- |
 | Día 21 | -- | -- |
