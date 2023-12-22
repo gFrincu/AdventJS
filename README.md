@@ -71,7 +71,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 18. El reloj digital](2023/dia18.md)  | Difícil |[Solución del día 18](2023/dia18.ts)  |
 | [Día 19. Enfrenta el sabotaje](2023/dia19.md)  | Medio |[Solución del día 19](2023/dia19.ts)  |
 | [Día 20. Distribuye el peso](2023/dia20.md)  | Difícil |[Solución del día 20](2023/dia20.ts)  |
-| Día 21 | -- | -- |
+| [Día 21. Mensaje binario](2023/dia21.md)  | Medio |[Solución del día 21](2023/dia21.ts)  |
 | Día 22 | -- | -- |
 | Día 23 | -- | -- |
 | Día 24 | -- | -- |
