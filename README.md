@@ -70,7 +70,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 17. Optimizando el alquiler](2023/dia17.md)  | Fácil |[Solución del día 17](2023/dia17.ts)  |
 | [Día 18. El reloj digital](2023/dia18.md)  | Difícil |[Solución del día 18](2023/dia18.ts)  |
 | [Día 19. Enfrenta el sabotaje](2023/dia19.md)  | Medio |[Solución del día 19](2023/dia19.ts)  |
-| Día 20 | -- | -- |
+| [Día 20. Distribuye el peso](2023/dia20.md)  | Difícil |[Solución del día 20](2023/dia20.ts)  |
 | Día 21 | -- | -- |
 | Día 22 | -- | -- |
 | Día 23 | -- | -- |
