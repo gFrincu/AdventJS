@@ -73,7 +73,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 20. Distribuye el peso](2023/dia20.md)  | Difícil |[Solución del día 20](2023/dia20.ts)  |
 | [Día 21. Mensaje binario](2023/dia21.md)  | Medio |[Solución del día 21](2023/dia21.ts)  |
 | [Día 22. Lenguaje de programación](2023/dia22.md)  | Fácil |[Solución del día 22](2023/dia22.ts)  |
-| Día 23 | -- | -- |
+| [Día 23. La comida de Navidad](2023/dia23.md)  | Fácil |[Solución del día 23](2023/dia23.ts)  |
 | Día 24 | -- | -- |
 | Día 25 | -- | -- |
 
