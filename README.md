@@ -75,7 +75,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | [Día 22. Lenguaje de programación](2023/dia22.md)  | Fácil |[Solución del día 22](2023/dia22.ts)  |
 | [Día 23. La comida de Navidad](2023/dia23.md)  | Fácil |[Solución del día 23](2023/dia23.ts)  |
 | [Día 24. Brincos en la escalera](2023/dia24.md)  | Medio |[Solución del día 24](2023/dia24.ts)  |
-| Día 25 | -- | -- |
+| [Día 25. Calculando distancias](2023/dia25.md)  | Medio |[Solución del día 25](2023/dia25.ts)  |
 
 ## Lista de años realizados
 
