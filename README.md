@@ -35,7 +35,7 @@ node 2021/dia1.mjs
 
 Mis commits probablemente serán un poco caóticos al menos en 2023, espero que con el pasar de los años (si lo sigo haciendo) tenga algo más de sentido. Pido disculpas por adelantado.
 
-He visto en el repo de [Achaology](https://github.com/achalogy/advent-js-2023/) Que el ha pasado los tests que Midudev pone en los retos con jest y me ha parecido una idea chula. Lo único malo de esto es que Midudev tiene algunos tests secretos que nosotros no conocemos, pero bueno, al menos los que sí también ayudan como guía. Así que intentaré introducirlos también. El advent de 2021 no te muestra los tests, así que de ese no pondré ninguno.
+He visto en algunos repos que hacen el archivo de test con los tests públicos que hay en la web del AdventJS con Jest y me ha parecido una idea chula. Lo único malo de esto es que Midudev tiene algunos tests secretos que nosotros no conocemos, pero bueno, al menos los que sí también ayudan como guía. Así que intentaré introducirlos también. El advent de 2021 no te muestra los tests, así que de ese no pondré ninguno.
 
 Para ejecutar un test hay que poner en consola
 
