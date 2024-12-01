@@ -47,38 +47,15 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 
 ¡Feliz código, feliz adviento y feliz navidad!
 
-## 2023
+## 2024
 
 | Día | Dificultad | Solución |
 | -- | -- | -- |
-| [Día 1. ¡Primer regalo repetido!](2023/dia1.md) | Fácil | [Solución del día 1 con for clásico](2023/dia1.ts) |
-| [Día 2. Ponemos en marcha la fábrica](2023/dia2.md)  | Fácil | [Solución del día 2 con for clásico](2023/dia2.ts)  |
-| [Día 3. El elfo travieso](2023/dia3.md)   | Fácil | [Solución del día 3](2023/dia3.ts)  |
-| [Día 4. Dale la vuelta a los paréntesis](2023/dia4.md)   | Medio | [Solución del día 4](2023/dia4.ts)  |
-| [Día 5. El CyberTruck de Santa](2023/dia5.md)   | Medio | [Solución del día 5](2023/dia5.ts)  |
-| [Día 6. Los renos a prueba](2023/dia6.md)   | Fácil | [Solución del día 6 con whiles e ifs](2023/dia6.ts)  |
-| [Día 7. Las cajas en 3D](2023/dia7.md)   | Fácil | [Solución del día 7](2023/dia7.ts)  |
-| [Día 8. Ordenando el almacén](2023/dia8.md)  | Medio | [Solución del día 8 con whiles y escritura densa](2023/dia8.ts)  |
-| [Día 9. Alterna las luces](2023/dia9.md)  | Fácil | [Solución del día 9 con dos fors](2023/dia9.ts)  |
-| [Día 10. Crea tu propio árbol de navidad](2023/dia10.md)  | Fácil | [Solución del día 10](2023/dia10.ts)  |
-| [Día 11. Los elfos estudiosos](2023/dia11.md)  | Medio |[Solución del día 11](2023/dia11.ts)  |
-| [Día 12. ¿Es una copia válida?](2023/dia12.md)  | Medio |[Solución del día 12](2023/dia12.ts)  |
-| [Día 13. Calculando el tiempo](2023/dia13.md)  | Fácil |[Solución del día 13](2023/dia13.ts)  |
-| [Día 14. Evita la alarma](2023/dia14.md)  | Medio |[Solución del día 14](2023/dia14.ts)  |
-| [Día 15. Robot autónomo](2023/dia15.md)  | Medio |[Solución del día 15](2023/dia15.ts)  |
-| [Día 16. Despliegue en viernes](2023/dia16.md)  | Fácil |[Solución del día 16](2023/dia16.ts)  |
-| [Día 17. Optimizando el alquiler](2023/dia17.md)  | Fácil |[Solución del día 17](2023/dia17.ts)  |
-| [Día 18. El reloj digital](2023/dia18.md)  | Difícil |[Solución del día 18](2023/dia18.ts)  |
-| [Día 19. Enfrenta el sabotaje](2023/dia19.md)  | Medio |[Solución del día 19](2023/dia19.ts)  |
-| [Día 20. Distribuye el peso](2023/dia20.md)  | Difícil |[Solución del día 20](2023/dia20.ts)  |
-| [Día 21. Mensaje binario](2023/dia21.md)  | Medio |[Solución del día 21](2023/dia21.ts)  |
-| [Día 22. Lenguaje de programación](2023/dia22.md)  | Fácil |[Solución del día 22](2023/dia22.ts)  |
-| [Día 23. La comida de Navidad](2023/dia23.md)  | Fácil |[Solución del día 23](2023/dia23.ts)  |
-| [Día 24. Brincos en la escalera](2023/dia24.md)  | Medio |[Solución del día 24](2023/dia24.ts)  |
-| [Día 25. Calculando distancias](2023/dia25.md)  | Medio |[Solución del día 25](2023/dia25.ts)  |
+| [Día 1. ¡Primer regalo repetido!](2024/dia1.md) | Fácil | [Solución del día 1](2024/dia1.ts) |
 
 ## Lista de años realizados
 
 - [2021](./2021.md)
 - [2022](./2022.md)
 - [2023](./2023.md)
+- [2024](./2024.md)
