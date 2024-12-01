@@ -7,7 +7,7 @@
 //  entonces vuelvo a llamar a la función, y empieza de nuevo, el reduce, el ver si vale para añadirla, el hacer el for etc, etc, etc.
 
 
-function getStaircasePaths(steps: number, maxJump: number): number[][] {
+export function getStaircasePaths(steps: number, maxJump: number): number[][] {
 	let combinations: number[][] = [];
 
 	function findPaths(currentPath: number[]): void {

@@ -1,4 +1,4 @@
-function travelDistance(map: string): number {
+export function travelDistance(map: string): number {
 	let totalKM = 0;
 	let currentKid = 1;
 	const mapArray = map.split('\n').map(row => row.split(''));
