@@ -52,6 +52,7 @@ Recuerdo que probablemente mi solución no sea la más óptima, lo hago para mej
 | Día | Dificultad | Solución |
 | -- | -- | -- |
 | [Día 1. ¡Primer regalo repetido!](2024/dia1.md) | Fácil | [Solución del día 1](2024/dia1.ts) |
+| [Día 2. Enmarcando nombres](2024/dia2.md) | Fácil | [Solución del día 2](2024/dia2.ts) |
 
 ## Lista de años realizados
 
